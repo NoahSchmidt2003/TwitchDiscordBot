@@ -36,7 +36,7 @@ class MyClient(discord.Client):
 
             headers = {
                 'Accept': 'application/vnd.twitchtv.v5+json',
-                'Client-ID': 'dsv0rf69bvzgi9ch6ys16vwncjax1z',
+                'Client-ID': '',
                 'Authorization': 'OAuth ' + oauth,
             }
             while True:
